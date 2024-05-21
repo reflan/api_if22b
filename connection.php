@@ -4,5 +4,5 @@
     $pass   = "";
     $db     = "db_if22b";
 
-    $connect = mysql_connect($server, $user, $pass, $db);
+    $connect = mysqli_connect($server, $user, $pass, $db);
 ?>
